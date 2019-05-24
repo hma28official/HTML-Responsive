@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Responsive</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+                * {
+                  box-sizing:border-box;
+                }
+                
+                .box1 {
+                  background-color: black;
+                  padding: 20px;
+                  float: left;
+                  width: 25%;
+                }
+                
+                .box2 {
+                  background-color: red;
+                  padding: 20px;
+                  float: left;
+                  width: 25%;
+                }
+                
+                .box3 {
+                  background-color: blue;
+                  padding: 20px;
+                  float: left;
+                  width: 25%;
+                }
+                
+                .box4 {
+                  background-color: green;
+                  padding: 20px;
+                  float: left;
+                  width: 25%;
+                }
+
+                .box5{
+                  background-color: yellow;
+                  padding: 20px;
+                  float: left;
+                  width: 50%;
+                }
+
+                .box6{
+                  background-color: orange;
+                  padding: 20px;
+                  float: left;
+                  width: 50%;
+                }
+
+                @media screen and (max-width:800px) {
+                  .box1, .box2, .box3, .box4 {
+                    width:50%;
+                }
+                @media screen and (max-width:800px) {
+                  .box5, .box6 {
+                    width:100%;
+                }   
+    </style>
+    <style>
+    	h1 {
+  			color: white;
+  			font-family: courier;
+  			text-align: center;
+  			font-size: 20px;
+  			border: 3px solid grey;
+		}
+		p {
+			color: white;
+			font-family: arialblack;
+			text-align: center;
+			font-size: 15px;
+		}
+    </style>
+</head>
+<body>
+	  <div style="background-color: grey; padding:15px;">
+      <h1 style="color: black; text-align: center; font-family: algerian; border: 5px solid black; font-size: 27px">HTML Responsive</h1>
+      <p style="color: black; font-family: forte; font-size: 20px"><ins>Hilman Maulana Anhar - 2SC7</ins></p>
+    </div>
+    
+    <img src="assets/images/Nature.jpg" alt="Nature" style="width: 100%">
+
+    <div class="box1">
+    	<h1>Color 1</h1>
+    	<p>This is black<br>Yes, black.</p>
+    </div>
+    
+    <div class="box2">
+    	<h1>Color 2</h1>
+    	<p>This is red<br>Yes, red.</p>
+    </div>
+            
+    <div class="box3">
+    	<h1>Color 3</h1>
+    	<p>This is blue<br>Yes, blue.</p>
+    </div>
+            
+    <div class="box4">
+    	<h1>Color 4</h1>
+    	<p>This is green<br>Yes, green.</p>
+    </div>
+            
+    <div class="box5">
+    	<h1>Color 5</h1>
+    	<p>This is yellow<br>Yes, yellow.</p>
+    </div>
+            
+    <div class="box6">
+    	<h1>Color 6</h1>
+    	<p>This is orange<br>Yes, orange.</p>
+    </div>
+</body>
+</html>
